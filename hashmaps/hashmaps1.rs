@@ -3,7 +3,7 @@
 // A basket of fruits in the form of a hash map needs to be defined. The key
 // represents the name of the fruit and the value represents how many of that
 // particular fruit is in the basket. You have to put at least three different
-// types of fruits (e.g apple, banana, mango) in the basket and the total count
+// types of fruits (e.g. apple, banana, mango) in the basket and the total count
 // of all the fruits should be at least five.
 //
 // Make me compile and pass the tests!
@@ -17,9 +17,9 @@ fn fruit_basket() -> HashMap<String, u32> {
     let mut basket = HashMap::new();
 
     // Two bananas are already given for you :)
-    basket.insert(String::from("banana"), 2);
+    basket.insert(String::from("banana"), 1);
     basket.insert("apple".to_string(), 5);
-    basket.insert("orange".to_string(), 3);
+    basket.insert("mango".to_string(), 1);
 
     // TODO: Put more fruits in your basket here.
 
